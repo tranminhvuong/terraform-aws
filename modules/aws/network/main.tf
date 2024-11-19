@@ -9,7 +9,6 @@ locals {
   }
 }
 
-
 module "vpc" {
   source                                          = "terraform-aws-modules/vpc/aws"
   name                                            = "${local.project}-${local.environment}-vpc"
